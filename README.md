@@ -37,6 +37,18 @@ the second number.
 WebGPU needs Chrome or Edge 113+. Without it the page falls back to WASM,
 which works everywhere but is roughly 25× slower.
 
+## Part of is.tools
+
+This probe came out of building [**is.tools**](https://is.tools) — 30+ tools
+that all run client-side, under one rule: the file never leaves your device.
+
+Same approach throughout: image codecs are MozJPEG / libwebp / libavif / OxiPNG
+compiled to WASM, PDF work uses pdf-lib and qpdf, OCR uses tesseract.js, and
+background removal uses the ISNet model in this repo. No accounts, no quotas,
+no upload step, no watermark on the output.
+
+Available in multiple languages.
+
 ## License
 
 Apache-2.0
