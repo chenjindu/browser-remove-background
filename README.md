@@ -39,7 +39,7 @@ which works everywhere but is roughly 25× slower.
 
 ## Part of is.tools
 
-This probe came out of building [**is.tools**](https://is.tools) — 30+ tools
+This probe came out of building [**https://is.tools**](https://is.tools) — 30+ tools
 that all run client-side, under one rule: the file never leaves your device.
 
 Same approach throughout: image codecs are MozJPEG / libwebp / libavif / OxiPNG
